@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">知乎日报</string>
+    <string name="begin">Let\'s Begin</string>
+    <string name="title_activity_main">知乎日报</string>
+    <string name="requestfailure">请求失败，请检查您的网络</string>
+    <string name="serverException">服务器异常</string>
+    <string name="drawer_open">drawer open!</string>
+    <string name="drawer_close">drawer close!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_page">首页</string>
+    <string name="day_heart">日常心理学</string>
+    <string name="movie_news">电影日报</string>
+    <string name="have_interesting">不许无聊</string>
+    <string name="design_news">设计日报</string>
+    <string name="company_news">大公司日报</string>
+    <string name="finance_news">财经日报</string>
+    <string name="internet_safe">互联网安全</string>
+    <string name="begin_game">开始游戏</string>
+    <string name="music_news">音乐日报</string>
+    <string name="sport_news">体育日报</string>
+    <string name="cartoon_news">动漫日报</string>
+    <string name="user_advice">用户推荐日报</string>
+    <string name="editor">主编</string>
+    <string name="title_activity_news">NewsActivity</string>
+</resources>

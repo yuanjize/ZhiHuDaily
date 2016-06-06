@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/select_shap" android:state_selected="true">
+
+    </item>
+    <item android:drawable="@drawable/no_select_shap" android:state_selected="false">
+        <shape android:shape="oval">
+            <corners android:radius="0.5dip" />
+        </shape>
+    </item>
+</selector>
