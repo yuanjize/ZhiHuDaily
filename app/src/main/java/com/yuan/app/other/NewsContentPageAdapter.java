@@ -36,8 +36,6 @@ public class NewsContentPageAdapter extends PagerAdapter {
         while (views.size() < 4) {
             WebView webView = (WebView) View.inflate(MyApplication.getContext(), R.layout.news_content_view, null);
             views.add(webView);
-
-            LogUtils.e("viewsSize------------------------->" + views.size());
         }
     }
 

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\mdtp_time_picker_dialog.xml",
+        "source": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\layout-land\\mdtp_time_picker_dialog.xml"
+    },
+    {
+        "merged": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\mdtp_date_picker_dialog.xml",
+        "source": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\layout-land\\mdtp_date_picker_dialog.xml"
+    }
+]

@@ -1,0 +1,596 @@
+[
+    {
+        "outputFile": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\res\\merged\\debug\\values-lt\\values-lt.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 115,
+                    "endOffset": 216
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 115,
+                        "endOffset": 166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 221,
+                    "endColumn": 107,
+                    "endOffset": 324
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 171,
+                        "endColumn": 107,
+                        "endOffset": 274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 329,
+                    "endColumn": 122,
+                    "endOffset": 447
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 279,
+                        "endColumn": 122,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 452,
+                    "endColumn": 100,
+                    "endOffset": 548
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 100,
+                        "endOffset": 498
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 553,
+                    "endColumn": 112,
+                    "endOffset": 661
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 503,
+                        "endColumn": 112,
+                        "endOffset": 611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 666,
+                    "endColumn": 86,
+                    "endOffset": 748
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 616,
+                        "endColumn": 86,
+                        "endOffset": 698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 753,
+                    "endColumn": 108,
+                    "endOffset": 857
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 703,
+                        "endColumn": 108,
+                        "endOffset": 807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 862,
+                    "endColumn": 120,
+                    "endOffset": 978
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 812,
+                        "endColumn": 120,
+                        "endOffset": 928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 983,
+                    "endColumn": 81,
+                    "endOffset": 1060
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 933,
+                        "endColumn": 81,
+                        "endOffset": 1010
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1065,
+                    "endColumn": 80,
+                    "endOffset": 1141
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1015,
+                        "endColumn": 80,
+                        "endOffset": 1091
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1146,
+                    "endColumn": 84,
+                    "endOffset": 1226
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1096,
+                        "endColumn": 84,
+                        "endOffset": 1176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1231,
+                    "endColumn": 108,
+                    "endOffset": 1335
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1181,
+                        "endColumn": 108,
+                        "endOffset": 1285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1340,
+                    "endColumn": 108,
+                    "endOffset": 1444
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1290,
+                        "endColumn": 108,
+                        "endOffset": 1394
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1449,
+                    "endColumn": 99,
+                    "endOffset": 1544
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1399,
+                        "endColumn": 99,
+                        "endOffset": 1494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1549,
+                    "endColumn": 109,
+                    "endOffset": 1654
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1499,
+                        "endColumn": 109,
+                        "endOffset": 1604
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1659,
+                    "endColumn": 103,
+                    "endOffset": 1758
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1609,
+                        "endColumn": 103,
+                        "endOffset": 1708
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1763,
+                    "endColumn": 112,
+                    "endOffset": 1871
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1713,
+                        "endColumn": 112,
+                        "endOffset": 1821
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1876,
+                    "endColumn": 129,
+                    "endOffset": 2001
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1826,
+                        "endColumn": 129,
+                        "endOffset": 1951
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2006,
+                    "endColumn": 100,
+                    "endOffset": 2102
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1956,
+                        "endColumn": 100,
+                        "endOffset": 2052
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2107,
+                    "endColumn": 109,
+                    "endOffset": 2212
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 263,
+                        "endColumn": 109,
+                        "endOffset": 368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2217,
+                    "endColumn": 113,
+                    "endOffset": 2326
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 373,
+                        "endColumn": 113,
+                        "endOffset": 482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2331,
+                    "endColumn": 81,
+                    "endOffset": 2408
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 487,
+                        "endColumn": 81,
+                        "endOffset": 564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2413,
+                    "endColumn": 115,
+                    "endOffset": 2524
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 569,
+                        "endColumn": 115,
+                        "endOffset": 680
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2529,
+                    "endColumn": 133,
+                    "endOffset": 2658
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 685,
+                        "endColumn": 133,
+                        "endOffset": 814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2663,
+                    "endColumn": 117,
+                    "endOffset": 2776
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 819,
+                        "endColumn": 117,
+                        "endOffset": 932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2781,
+                    "endColumn": 101,
+                    "endOffset": 2878
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 937,
+                        "endColumn": 101,
+                        "endOffset": 1034
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2883,
+                    "endColumn": 96,
+                    "endOffset": 2975
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1039,
+                        "endColumn": 96,
+                        "endOffset": 1131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2980,
+                    "endColumn": 97,
+                    "endOffset": 3073
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1136,
+                        "endColumn": 97,
+                        "endOffset": 1229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3078,
+                    "endColumn": 92,
+                    "endOffset": 3166
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1234,
+                        "endColumn": 92,
+                        "endOffset": 1322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3171,
+                    "endColumn": 99,
+                    "endOffset": 3266
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1327,
+                        "endColumn": 99,
+                        "endOffset": 1422
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3271,
+                    "endColumn": 100,
+                    "endOffset": 3367
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-lt\\values-lt.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2057,
+                        "endColumn": 100,
+                        "endOffset": 2153
+                    }
+                }
+            }
+        ]
+    }
+]

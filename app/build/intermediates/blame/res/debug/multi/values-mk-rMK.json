@@ -1,0 +1,558 @@
+[
+    {
+        "outputFile": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\res\\merged\\debug\\values-mk-rMK\\values-mk-rMK.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 107,
+                    "endOffset": 208
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 107,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 213,
+                    "endColumn": 122,
+                    "endOffset": 331
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 163,
+                        "endColumn": 122,
+                        "endOffset": 281
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 336,
+                    "endColumn": 103,
+                    "endOffset": 435
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 286,
+                        "endColumn": 103,
+                        "endOffset": 385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 440,
+                    "endColumn": 107,
+                    "endOffset": 543
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 390,
+                        "endColumn": 107,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 548,
+                    "endColumn": 85,
+                    "endOffset": 629
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 498,
+                        "endColumn": 85,
+                        "endOffset": 579
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 634,
+                    "endColumn": 104,
+                    "endOffset": 734
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 584,
+                        "endColumn": 104,
+                        "endOffset": 684
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 739,
+                    "endColumn": 118,
+                    "endOffset": 853
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 689,
+                        "endColumn": 118,
+                        "endOffset": 803
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 858,
+                    "endColumn": 82,
+                    "endOffset": 936
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 808,
+                        "endColumn": 82,
+                        "endOffset": 886
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 941,
+                    "endColumn": 81,
+                    "endOffset": 1018
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 891,
+                        "endColumn": 81,
+                        "endOffset": 968
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1023,
+                    "endColumn": 86,
+                    "endOffset": 1105
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 973,
+                        "endColumn": 86,
+                        "endOffset": 1055
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1110,
+                    "endColumn": 105,
+                    "endOffset": 1211
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1060,
+                        "endColumn": 105,
+                        "endOffset": 1161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1216,
+                    "endColumn": 106,
+                    "endOffset": 1318
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1166,
+                        "endColumn": 106,
+                        "endOffset": 1268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1323,
+                    "endColumn": 100,
+                    "endOffset": 1419
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1273,
+                        "endColumn": 100,
+                        "endOffset": 1369
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1424,
+                    "endColumn": 106,
+                    "endOffset": 1526
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1374,
+                        "endColumn": 106,
+                        "endOffset": 1476
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1531,
+                    "endColumn": 110,
+                    "endOffset": 1637
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1481,
+                        "endColumn": 110,
+                        "endOffset": 1587
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1642,
+                    "endColumn": 103,
+                    "endOffset": 1741
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1592,
+                        "endColumn": 103,
+                        "endOffset": 1691
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1746,
+                    "endColumn": 97,
+                    "endOffset": 1839
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1696,
+                        "endColumn": 97,
+                        "endOffset": 1789
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1844,
+                    "endColumn": 101,
+                    "endOffset": 1941
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 267,
+                        "endColumn": 101,
+                        "endOffset": 364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1946,
+                    "endColumn": 114,
+                    "endOffset": 2056
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 369,
+                        "endColumn": 114,
+                        "endOffset": 479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2061,
+                    "endColumn": 80,
+                    "endOffset": 2137
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 484,
+                        "endColumn": 80,
+                        "endOffset": 560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2142,
+                    "endColumn": 111,
+                    "endOffset": 2249
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 565,
+                        "endColumn": 111,
+                        "endOffset": 672
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2254,
+                    "endColumn": 118,
+                    "endOffset": 2368
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 677,
+                        "endColumn": 118,
+                        "endOffset": 791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2373,
+                    "endColumn": 113,
+                    "endOffset": 2482
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 796,
+                        "endColumn": 113,
+                        "endOffset": 905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2487,
+                    "endColumn": 92,
+                    "endOffset": 2575
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 910,
+                        "endColumn": 92,
+                        "endOffset": 998
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2580,
+                    "endColumn": 89,
+                    "endOffset": 2665
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1003,
+                        "endColumn": 89,
+                        "endOffset": 1088
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2670,
+                    "endColumn": 91,
+                    "endOffset": 2757
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1093,
+                        "endColumn": 91,
+                        "endOffset": 1180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2762,
+                    "endColumn": 88,
+                    "endOffset": 2846
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1185,
+                        "endColumn": 88,
+                        "endOffset": 1269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2851,
+                    "endColumn": 103,
+                    "endOffset": 2950
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.0.1\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1274,
+                        "endColumn": 103,
+                        "endOffset": 1373
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2955,
+                    "endColumn": 100,
+                    "endOffset": 3051
+                },
+                "from": {
+                    "file": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1794,
+                        "endColumn": 100,
+                        "endOffset": 1890
+                    }
+                }
+            }
+        ]
+    }
+]

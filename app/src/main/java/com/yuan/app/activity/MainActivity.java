@@ -7,8 +7,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.view.MotionEvent;
-import android.view.View;
 
 import com.wdullaer.materialdatetimepicker.date.DatePickerDialog;
 import com.yuan.app.R;
@@ -18,8 +16,6 @@ import com.yuan.app.fragment.OtherNewsFragment;
 import com.yuan.app.net.ThemesService;
 import com.yuan.app.other.BaseRetrofitCallBack;
 import com.yuan.app.other.MyFragmentAdapter;
-import com.yuan.app.utils.CommonUtils;
-import com.yuan.app.utils.LogUtils;
 import com.yuan.app.utils.RetrofitUtils;
 
 import java.util.Calendar;
@@ -44,9 +40,9 @@ public class MainActivity extends BaseActivity implements
     private ActionBarDrawerToggle actionBarDrawerToggle;
     private String date;
     private Themes themes;
-    private float lastLoacte;
-    private float currentLoacte;
-    private float screenWidth = CommonUtils.getScreenWidth();
+//    private float lastLoacte;
+//    private float currentLoacte;
+//    private float screenWidth = CommonUtils.getScreenWidth();
 
     @Override
     protected void init() {
@@ -70,6 +66,7 @@ public class MainActivity extends BaseActivity implements
             }
         });
     }
+
 
     @Override
     protected int getLayoutId() {
@@ -99,45 +96,45 @@ public class MainActivity extends BaseActivity implements
         return true;
     }
 
-    //滑动屏幕五分之一的时候Toolbar完全隐藏。
-    @Override
-    public boolean onTouchEvent(MotionEvent event) {
-        switch (event.getAction()) {
-            case MotionEvent.ACTION_DOWN:
-                lastLoacte = event.getRawY();
-                break;
-            case MotionEvent.ACTION_MOVE:
-                currentLoacte = event.getRawY();
-                //向下滑distanc>0，向上滑distance<0
-                float distance = currentLoacte - lastLoacte;
-                if (distance == (screenWidth) / 5) {
-                    break;
-                }
-                if (distance < 0) {
-                    if (appbarlayout.getAlpha() == 0) {
-                        appbarlayout.setVisibility(View.GONE);
-                        break;
-                    }
-                    appbarlayout.setAlpha((distance / (screenWidth) * 30) + appbarlayout.getAlpha());
-                } else {
-                    appbarlayout.setVisibility(View.VISIBLE);
-                    appbarlayout.setAlpha(1);
-                }
-                break;
-            case MotionEvent.ACTION_UP:
-                lastLoacte = 0;
-                currentLoacte = 0;
-                break;
-        }
-        return false;
-    }
+//    //滑动屏幕五分之一的时候Toolbar完全隐藏。
+//    @Override
+//    public boolean onTouchEvent(MotionEvent event) {
+//        switch (event.getAction()) {
+//            case MotionEvent.ACTION_DOWN:
+//                lastLoacte = event.getRawY();
+//                break;
+//            case MotionEvent.ACTION_MOVE:
+//                currentLoacte = event.getRawY();
+//                //向下滑distanc>0，向上滑distance<0
+//                float distance = currentLoacte - lastLoacte;
+//                if (distance == (screenWidth) / 5) {
+//                    break;
+//                }
+//                if (distance < 0) {
+//                    if (appbarlayout.getAlpha() == 0) {
+//                        appbarlayout.setVisibility(View.GONE);
+//                        break;
+//                    }
+//                    appbarlayout.setAlpha((distance / (screenWidth) * 30) + appbarlayout.getAlpha());
+//                } else {
+//                    appbarlayout.setVisibility(View.VISIBLE);
+//                    appbarlayout.setAlpha(1);
+//                }
+//                break;
+//            case MotionEvent.ACTION_UP:
+//                lastLoacte = 0;
+//                currentLoacte = 0;
+//                break;
+//        }
+//        return false;
+//    }
 
-    @Override
-    public boolean dispatchTouchEvent(MotionEvent ev) {
-        super.dispatchTouchEvent(ev);
-        onTouchEvent(ev);
-        return false;
-    }
+//    @Override
+//    public boolean dispatchTouchEvent(MotionEvent ev) {
+//        super.dispatchTouchEvent(ev);
+//        onTouchEvent(ev);
+//        return false;
+//    }
 
     @Override
     public boolean onMenuItemClick(MenuItem item) {

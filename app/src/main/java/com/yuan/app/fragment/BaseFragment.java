@@ -77,10 +77,6 @@ public abstract class BaseFragment extends Fragment {
 
     public abstract void onToolBarChange(String date);
 
-    public interface OnDateChange {
-        String refreshData(String date);
-    }
-
     @Override
     public void onDestroy() {
         super.onDestroy();

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\yjz\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.5.0_cf247e2440baab4e4afb6e64ae000a38bb77b8ef\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yjz\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_5a56b84906f7513274a69760821c825fd139dc19\classes.dex" />
+    </item>
+    <item
+        jar="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_b4c855e56aec9f681a384669480c4bfd10b4f876\classes.dex" />
+    </item>
+    <item
+        jar="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_beea4452f28f35d1381f5bd5aa9e9326bcb83125\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yjz\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.0.1\345b89f45d02d8b09400b472fab7b7e38f4ede1f\butterknife-annotations-8.0.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.0.1_7d5a0c24d26510e06a59f19bc98ec1a94d83619f\classes.dex" />
+    </item>
+    <item
+        jar="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.3.0_4470bf0b8dcf9a30fd3edff4b973fa29c9d5db35\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yjz\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_46de28fe8a7b13dc7a6b7ab8ee0791506b8b1bd7\classes.dex" />
+    </item>
+    <item
+        jar="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23f16e89e9b346445b86af634201799434572cd4">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_784c1a67f30e7fc8ae846561779edc0e632815d0\classes.dex" />
+    </item>
+    <item
+        jar="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.3.0_79b9d630d9e2a6352c8b591f30fefb0b2b781d2a\classes.dex" />
+    </item>
+    <item
+        jar="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="74ca46e7da11e3d065eb64cdbe6568a7ed74c211">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.0.1_4dbe18752ca08b279604f52293c6fd453425ffc2\classes.dex" />
+    </item>
+    <item
+        jar="F:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_261c6caa52bba0bf7589aedb0f36aea8b387753c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yjz\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\converter-gson\2.0.0-beta2\392c3d09e0f5e7087544093cc0cb23bb9c7af5fa\converter-gson-2.0.0-beta2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta2_99db37c17b924418e84fecdd0a75ac57f89f69a3\classes.dex" />
+    </item>
+    <item
+        jar="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_e63f4aa860306c159f2756fb58eb82277d349cc7\classes.dex" />
+    </item>
+    <item
+        jar="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f269a83c539c7a4ea1eb1dfe7819c165e3a8b8b8">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b315d2c4a89ee6ba958b1d1d2b68a8a5f6801548\classes.dex" />
+    </item>
+    <item
+        jar="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_67fe0844fc009a681635c1abcb0d2fc1613d20e4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yjz\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\2.0.0-beta2\880d9e0997b2d1bfc98e0d121ced33ee5d04aac4\retrofit-2.0.0-beta2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0-beta2_f0d5bcb4fa5a544c37d494b2af4465fbfbaafda0\classes.dex" />
+    </item>
+    <item
+        jar="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-2.0.0_ed3f9b458f3846e8b4d85c5363b2e21dd3f24e57\classes.dex" />
+    </item>
+    <item
+        jar="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\exploded-aar\com.wdullaer\materialdatetimepicker\2.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="02329eff16d85c04492c7a5dab456f0993d16349">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.wdullaer-materialdatetimepicker-2.0.1_cb933a8aea597e27c73820a2d0fd373bd60e1b4c\classes.dex" />
+    </item>
+    <item
+        jar="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.3.0_ac4e416e6f49c34add3e5d9543de4c733178a7af\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\yjz\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_e087bf02a3b99264b4da8d34b81a655c305c8035\classes.dex" />
+    </item>
+    <item
+        jar="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_1045abc60e89b477ab801f2addf55d856ef53a7c\classes.dex" />
+    </item>
+
+</items>

@@ -21,7 +21,7 @@ import java.util.List;
 
 /**
  * Created by yjz on 2016/5/29.
- * 循环ViewPager
+ * 循环banner
  */
 public class LoopViewPager extends LinearLayout {
     private View view;

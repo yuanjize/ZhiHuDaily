@@ -6,6 +6,7 @@ import android.widget.ListView;
 
 /**
  * Created by yjz on 2016/5/30.
+ * 解决ScrollerView和ListView嵌套不能
  */
 public class MyListView extends ListView {
     public MyListView(Context context) {
