@@ -18,9 +18,10 @@
         <!--android:layout_height="match_parent"-->
         <!--android:orientation="vertical">-->
 
-        <FrameLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <android.support.design.widget.AppBarLayout
                 android:id="@+id/appbarlayout"
@@ -40,7 +41,7 @@
                 android:id="@+id/main_pager"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"></com.yuan.app.views.StaticViewPager>
-        </FrameLayout>
+        </LinearLayout>
         <!--</LinearLayout>-->
 
         <android.support.design.widget.NavigationView
