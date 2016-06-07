@@ -16,5 +16,5 @@ public interface ThemesService {
     public Call<Themes> getAllThemes();
 
     @GET(URLs.THEME_CONTENT+"{themeId}")
-    public Call<ThemeNews> getTheweNews(@Path("themeId") String themeId);
+    public Call<ThemeNews> getThemeNews(@Path("themeId") String themeId);
 }

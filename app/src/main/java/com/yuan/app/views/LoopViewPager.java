@@ -15,6 +15,7 @@ import android.widget.TextView;
 import com.yuan.app.R;
 import com.yuan.app.entities.MainData;
 import com.yuan.app.other.BannerPageAdapter;
+import com.yuan.app.utils.LogUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -109,6 +110,7 @@ public class LoopViewPager extends LinearLayout {
 
         adapter.setImages(pages);
         pager.setAdapter(adapter);
+        LogUtils.e("pageCount:" + datas.size());
         setPointCount(datas.size());
     }
 

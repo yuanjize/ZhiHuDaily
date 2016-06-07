@@ -18,6 +18,7 @@ import com.bumptech.glide.Glide;
 import com.yuan.app.R;
 import com.yuan.app.activity.NewsActivity;
 import com.yuan.app.application.MyApplication;
+import com.yuan.app.constants.URLs;
 import com.yuan.app.entities.ThemeNews;
 import com.yuan.app.entities.Themes;
 import com.yuan.app.net.ThemesService;
@@ -101,7 +102,7 @@ public class OtherNewsFragment extends BaseFragment implements SwipeRefreshLayou
         this.bean = bean;
         Glide.with(this).load(bean.getThumbnail()).into(themeIamge);
         themeDescription.setText(bean.getDescription());
-        RetrofitUtils.request(ThemesService.class, "getTheweNews", new BaseRetrofitCallBack<ThemeNews>() {
+        RetrofitUtils.request(ThemesService.class, "getThemeNews", new BaseRetrofitCallBack<ThemeNews>(URLs.THEME_CONTENT + themeId, ThemeNews.class) {
             @Override
             protected void handleMessage(ThemeNews body) {
                 OtherNewsFragment.this.news = body;

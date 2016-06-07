@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.yuan.app.R;
 import com.yuan.app.application.MyApplication;
+import com.yuan.app.constants.URLs;
 import com.yuan.app.entities.LunchPicture;
 import com.yuan.app.net.PrepareService;
 import com.yuan.app.other.BaseRetrofitCallBack;
@@ -31,13 +32,14 @@ public class LunchActivity extends AppCompatActivity {
     ImageView lunchImage;
 
     //使用handler定时显示1.5s
-    private Handler handler=new Handler(){
+    private Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
             startActivity(new Intent(LunchActivity.this, MainActivity.class));
             finish();
         }
     };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,13 +66,13 @@ public class LunchActivity extends AppCompatActivity {
     private void showLunchPicture() {
         PrepareService prepareService = MyApplication.getRetrofit().create(PrepareService.class);
         Call<LunchPicture> call = prepareService.getLunchPicture();
-        call.enqueue(new BaseRetrofitCallBack<LunchPicture>() {
+        call.enqueue(new BaseRetrofitCallBack<LunchPicture>(URLs.LUNCH_PICTURE, LunchPicture.class) {
             @Override
             protected void handleMessage(LunchPicture body) {
                 if (body != null) {
                     LogUtils.i(body.getImg());
                     Glide.with(LunchActivity.this).load(body.getImg()).into(lunchImage);
-                    handler.sendEmptyMessageDelayed(0,3000);
+                    handler.sendEmptyMessageDelayed(0, 3000);
                 }
             }
         });

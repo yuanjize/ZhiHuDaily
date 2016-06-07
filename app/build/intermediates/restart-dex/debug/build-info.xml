@@ -4,29 +4,53 @@
     api-level="22"
     density="560dpi"
     format="7"
-    timestamp="323036347718890" >
+    timestamp="330964714719276" >
 
     <task
         name="javac"
-        duration="9135" />
+        duration="1341" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1347" />
+        duration="173" />
     <task
         name="verifier"
-        duration="251" />
+        duration="50" />
 
     <artifact
-        location="F:\NewAndroidProjs\ZhiHuDaily\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
+    <artifact
+        location="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
 
     <build timestamp="323036347718890" >
         <artifact
             location="F:\NewAndroidProjs\ZhiHuDaily\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="329000657703918" >
+        <artifact
+            location="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="329597506700641" >
+        <artifact
+            location="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="330964714719276" >
+        <artifact
+            location="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

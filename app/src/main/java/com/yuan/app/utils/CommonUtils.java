@@ -4,6 +4,7 @@ import android.content.Context;
 import android.util.DisplayMetrics;
 import android.view.WindowManager;
 
+import com.google.gson.Gson;
 import com.yuan.app.application.MyApplication;
 
 import java.text.SimpleDateFormat;
@@ -13,6 +14,8 @@ import java.util.Date;
  * Created by yjz on 2016/6/3.
  */
 public class CommonUtils {
+    private static Gson gson = new Gson();
+
     public static String getCurrentDate() {
         Date date = new Date();
         SimpleDateFormat format = new SimpleDateFormat();
@@ -26,4 +29,9 @@ public class CommonUtils {
         windowManager.getDefaultDisplay().getMetrics(metrics);
         return metrics.widthPixels;
     }
+
+    public static Gson getGson() {
+        return gson;
+    }
+
 }

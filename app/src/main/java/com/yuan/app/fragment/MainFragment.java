@@ -14,6 +14,7 @@ import android.widget.ListView;
 
 import com.yuan.app.R;
 import com.yuan.app.activity.NewsActivity;
+import com.yuan.app.constants.URLs;
 import com.yuan.app.entities.MainData;
 import com.yuan.app.entities.OldNews;
 import com.yuan.app.net.MainService;
@@ -62,7 +63,7 @@ public class MainFragment extends BaseFragment implements SwipeRefreshLayout.OnR
 
     private void getOldNews(String date) {
         banner.stop();
-        RetrofitUtils.request(MainService.class, "getOldyNews", new BaseRetrofitCallBack<OldNews>() {
+        RetrofitUtils.request(MainService.class, "getOldyNews", new BaseRetrofitCallBack<OldNews>(URLs.OLD_NEWS, OldNews.class) {
                     @Override
                     protected void handleMessage(OldNews body) {
                         adapter.clear();
@@ -116,7 +117,7 @@ public class MainFragment extends BaseFragment implements SwipeRefreshLayout.OnR
 
     private void getLatestNews() {
         banner.stop();
-        RetrofitUtils.request(MainService.class, "getTodayNews", new BaseRetrofitCallBack<MainData>() {
+        RetrofitUtils.request(MainService.class, "getTodayNews", new BaseRetrofitCallBack<MainData>(URLs.LASTEST_NEWS, MainData.class) {
 
             @Override
             protected void handleMessage(MainData body) {

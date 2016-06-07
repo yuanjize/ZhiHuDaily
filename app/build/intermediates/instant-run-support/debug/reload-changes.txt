@@ -1,0 +1,5 @@
+CHANGED,F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\yuan\app\other\NewsContentPageAdapter$1$override.class
+CHANGED,F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\yuan\app\other\NewsContentPageAdapter$override.class
+CHANGED,F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\yuan\app\fragment\OtherNewsFragment$override.class
+CHANGED,F:\NewAndroidProjs\ZhiHuDaily\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\yuan\app\other\BaseRetrofitCallBack$override.class

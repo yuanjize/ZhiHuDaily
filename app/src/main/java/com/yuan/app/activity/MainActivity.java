@@ -10,6 +10,7 @@ import android.view.MenuItem;
 
 import com.wdullaer.materialdatetimepicker.date.DatePickerDialog;
 import com.yuan.app.R;
+import com.yuan.app.constants.URLs;
 import com.yuan.app.entities.Themes;
 import com.yuan.app.fragment.BaseFragment;
 import com.yuan.app.fragment.OtherNewsFragment;
@@ -59,7 +60,7 @@ public class MainActivity extends BaseActivity implements
         navigationView.setNavigationItemSelectedListener(this);
         mainPager.setAdapter(new MyFragmentAdapter(getSupportFragmentManager()));
         //加载侧换菜单的数据
-        RetrofitUtils.request(ThemesService.class, "getAllThemes", new BaseRetrofitCallBack<Themes>() {
+        RetrofitUtils.request(ThemesService.class, "getAllThemes", new BaseRetrofitCallBack<Themes>(URLs.THEME_LIST, Themes.class) {
             @Override
             protected void handleMessage(Themes body) {
                 MainActivity.this.themes = body;

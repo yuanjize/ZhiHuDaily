@@ -8,6 +8,7 @@ import android.webkit.WebView;
 
 import com.yuan.app.R;
 import com.yuan.app.application.MyApplication;
+import com.yuan.app.constants.URLs;
 import com.yuan.app.entities.MainData;
 import com.yuan.app.entities.NewsContent;
 import com.yuan.app.net.NewsService;
@@ -64,19 +65,18 @@ public class NewsContentPageAdapter extends PagerAdapter {
     }
 
     private void getNewsContent(int storyId, final WebView webView) {
-        RetrofitUtils.request(NewsService.class, "getNewsContent", new BaseRetrofitCallBack<NewsContent>() {
+        RetrofitUtils.request(NewsService.class, "getNewsContent", new BaseRetrofitCallBack<NewsContent>(URLs.NEWS_CONTENT, NewsContent.class) {
             @Override
             protected void handleMessage(NewsContent body) {
                 WebSettings settings = webView.getSettings();
                 settings.setJavaScriptEnabled(true);
                 settings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
-
+                StringBuffer buffer=new StringBuffer();
                 String page = "<html><head>" +
                         "<link rel='stylesheet' type='text/css' href='" +
                         body.getCss() + "'/>" + "<style>img{display: inline;height: auto;max-width: 100%;}</style>" +
                         "</head>" + "<body>" + body.getBody() + "</body></html>";
                 webView.loadData(page, "text/html;charset=utf-8", "utf-8");
-                ViewGroup.LayoutParams layoutParams = webView.getLayoutParams();
             }
         }, String.valueOf(storyId));
     }
