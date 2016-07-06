@@ -76,6 +76,7 @@ public class OtherNewsFragment extends BaseFragment implements SwipeRefreshLayou
             bean = (Themes.OthersBean) savedInstanceState.getSerializable(OTHER_BEAN);
             onRefresh();
         }
+
     }
 
     @Override
@@ -85,7 +86,6 @@ public class OtherNewsFragment extends BaseFragment implements SwipeRefreshLayou
         } else {
             themeRefresh.setRefreshing(false);
         }
-
     }
 
     @Override
@@ -100,7 +100,7 @@ public class OtherNewsFragment extends BaseFragment implements SwipeRefreshLayou
     public void onThemeChange(int themeId, Themes.OthersBean bean) {
         this.themeId = themeId;
         this.bean = bean;
-        Glide.with(this).load(bean.getThumbnail()).into(themeIamge);
+        Glide.with(this).load(bean.getThumbnail()).centerCrop().animate(R.anim.image_zoom_in).into(themeIamge);
         themeDescription.setText(bean.getDescription());
         RetrofitUtils.request(ThemesService.class, "getThemeNews", new BaseRetrofitCallBack<ThemeNews>(URLs.THEME_CONTENT + themeId, ThemeNews.class) {
             @Override
@@ -121,6 +121,7 @@ public class OtherNewsFragment extends BaseFragment implements SwipeRefreshLayou
                 themeRefresh.setRefreshing(false);
             }
         }, String.valueOf(themeId));
+
     }
 
     @Override

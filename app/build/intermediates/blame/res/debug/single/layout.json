@@ -200,6 +200,10 @@
         "source": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_banner.xml",
+        "source": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\src\\main\\res\\layout\\main_banner.xml"
+    },
+    {
         "merged": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\res\\merged\\debug\\layout\\editor_layout.xml",
         "source": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\src\\main\\res\\layout\\editor_layout.xml"
     },

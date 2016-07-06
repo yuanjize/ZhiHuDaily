@@ -4,30 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context="com.yuan.app.fragment.MainFragment">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <ListView
+            android:id="@+id/main_list"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <com.yuan.app.views.LoopViewPager
-                android:id="@+id/banner"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"></com.yuan.app.views.LoopViewPager>
-
-            <com.yuan.app.views.MyListView
-
-                android:id="@+id/main_list"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="10dp"
-                android:divider="#00000000"
-                android:dividerHeight="12dp"></com.yuan.app.views.MyListView>
-        </LinearLayout>
-    </ScrollView>
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="10dp"
+            android:divider="#00000000"
+            android:dividerHeight="12dp"></ListView>
+    </LinearLayout>
 </android.support.v4.widget.SwipeRefreshLayout>

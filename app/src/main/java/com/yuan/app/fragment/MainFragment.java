@@ -9,6 +9,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
@@ -35,7 +36,6 @@ import butterknife.BindView;
  * 新闻主页面
  */
 public class MainFragment extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener {
-    @BindView(R.id.banner)
     LoopViewPager banner;
     @BindView(R.id.main_list)
     ListView mainList;
@@ -90,9 +90,13 @@ public class MainFragment extends BaseFragment implements SwipeRefreshLayout.OnR
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        View v = View.inflate(getContext(), R.layout.main_banner, null);
+        banner = (LoopViewPager) v.findViewById(R.id.banner);
+        mainList.addHeaderView(v);
         adapter.setFragment(this);
         mainList.setAdapter(adapter);
         swipe.setOnRefreshListener(this);
+        mainList.setOnScrollListener(new SwipeOnScrollListener(swipe, null));
         mainList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -143,5 +147,40 @@ public class MainFragment extends BaseFragment implements SwipeRefreshLayout.OnR
     @Override
     public void onPause() {
         super.onPause();
+    }
+}
+
+
+//解决ListView和Swip滑动冲突。
+class SwipeOnScrollListener implements AbsListView.OnScrollListener {
+    private SwipeRefreshLayout swipeRefreshLayout;
+    private AbsListView.OnScrollListener listener;
+
+    public SwipeOnScrollListener(SwipeRefreshLayout swipeRefreshLayout, AbsListView.OnScrollListener listener) {
+        this.swipeRefreshLayout = swipeRefreshLayout;
+        this.listener = listener;
+    }
+
+    @Override
+    public void onScrollStateChanged(AbsListView view, int scrollState) {
+
+    }
+
+    @Override
+    public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+        if (firstVisibleItem == 0) {
+            View firstVisibleItemview = view.getChildAt(firstVisibleItem);
+            //第0个Item显示出来斌且滑动到最顶部
+            if (firstVisibleItemview != null && (firstVisibleItemview.getTop() == 0)) {
+                swipeRefreshLayout.setEnabled(true);
+            } else {
+                swipeRefreshLayout.setEnabled(false);
+            }
+        } else {
+            swipeRefreshLayout.setEnabled(false);
+        }
+        if (listener != null) {
+            listener.onScroll(view, firstVisibleItem, visibleItemCount, totalItemCount);
+        }
     }
 }

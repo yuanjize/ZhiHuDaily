@@ -14,10 +14,8 @@ public class MainFragment$$ViewBinder<T extends MainFragment> implements ViewBin
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131492989, "field 'banner'");
-    target.banner = finder.castView(view, 2131492989, "field 'banner'");
-    view = finder.findRequiredView(source, 2131492990, "field 'mainList'");
-    target.mainList = finder.castView(view, 2131492990, "field 'mainList'");
+    view = finder.findRequiredView(source, 2131492989, "field 'mainList'");
+    target.mainList = finder.castView(view, 2131492989, "field 'mainList'");
     view = finder.findRequiredView(source, 2131492988, "field 'swipe'");
     target.swipe = finder.castView(view, 2131492988, "field 'swipe'");
     return unbinder;
@@ -42,7 +40,6 @@ public class MainFragment$$ViewBinder<T extends MainFragment> implements ViewBin
     }
 
     protected void unbind(T target) {
-      target.banner = null;
       target.mainList = null;
       target.swipe = null;
     }

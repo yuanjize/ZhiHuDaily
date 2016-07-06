@@ -1,5 +1,9 @@
 [
     {
+        "merged": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\res\\merged\\debug\\anim\\image_zoom_in.xml",
+        "source": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\src\\main\\res\\anim\\image_zoom_in.xml"
+    },
+    {
         "merged": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
         "source": "F:\\NewAndroidProjs\\ZhiHuDaily\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_fade_out.xml"
     },

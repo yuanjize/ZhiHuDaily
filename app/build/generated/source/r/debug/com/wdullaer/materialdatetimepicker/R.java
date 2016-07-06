@@ -130,14 +130,14 @@ public final class R {
 		public static final int time_picker_header = 0x7f0c00a5;
 	}
 	public static final class layout {
-		public static final int mdtp_date_picker_dialog = 0x7f040036;
-		public static final int mdtp_date_picker_header_view = 0x7f040037;
-		public static final int mdtp_date_picker_selected_date = 0x7f040038;
-		public static final int mdtp_date_picker_view_animator = 0x7f040039;
-		public static final int mdtp_done_button = 0x7f04003a;
-		public static final int mdtp_time_header_label = 0x7f04003b;
-		public static final int mdtp_time_picker_dialog = 0x7f04003c;
-		public static final int mdtp_year_label_text_view = 0x7f04003d;
+		public static final int mdtp_date_picker_dialog = 0x7f040037;
+		public static final int mdtp_date_picker_header_view = 0x7f040038;
+		public static final int mdtp_date_picker_selected_date = 0x7f040039;
+		public static final int mdtp_date_picker_view_animator = 0x7f04003a;
+		public static final int mdtp_done_button = 0x7f04003b;
+		public static final int mdtp_time_header_label = 0x7f04003c;
+		public static final int mdtp_time_picker_dialog = 0x7f04003d;
+		public static final int mdtp_year_label_text_view = 0x7f04003e;
 	}
 	public static final class string {
 		public static final int mdtp_ampm_circle_radius_multiplier = 0x7f060032;
@@ -172,13 +172,13 @@ public final class R {
 		public static final int mdtp_year_picker_description = 0x7f06001d;
 	}
 	public static final class style {
-		public static final int mdtp_ActionButton = 0x7f090162;
-		public static final int mdtp_ActionButton_Text = 0x7f090163;
-		public static final int mdtp_ampm_label = 0x7f090164;
+		public static final int mdtp_ActionButton = 0x7f090163;
+		public static final int mdtp_ActionButton_Text = 0x7f090164;
+		public static final int mdtp_ampm_label = 0x7f090165;
 		public static final int mdtp_day_of_week_label_condensed = 0x7f090029;
 		public static final int mdtp_done_button_light = 0x7f09002a;
-		public static final int mdtp_time_label = 0x7f090165;
-		public static final int mdtp_time_label_small = 0x7f090166;
+		public static final int mdtp_time_label = 0x7f090166;
+		public static final int mdtp_time_label_small = 0x7f090167;
 		public static final int mdtp_time_label_thin = 0x7f09002b;
 	}
 }

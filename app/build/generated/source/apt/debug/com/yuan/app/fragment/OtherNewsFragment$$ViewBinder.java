@@ -14,16 +14,16 @@ public class OtherNewsFragment$$ViewBinder<T extends OtherNewsFragment> implemen
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131492992, "field 'themeIamge'");
-    target.themeIamge = finder.castView(view, 2131492992, "field 'themeIamge'");
-    view = finder.findRequiredView(source, 2131492995, "field 'themeNews'");
-    target.themeNews = finder.castView(view, 2131492995, "field 'themeNews'");
-    view = finder.findRequiredView(source, 2131492991, "field 'themeRefresh'");
-    target.themeRefresh = finder.castView(view, 2131492991, "field 'themeRefresh'");
-    view = finder.findRequiredView(source, 2131492993, "field 'themeDescription'");
-    target.themeDescription = finder.castView(view, 2131492993, "field 'themeDescription'");
-    view = finder.findRequiredView(source, 2131492994, "field 'editors'");
-    target.editors = finder.castView(view, 2131492994, "field 'editors'");
+    view = finder.findRequiredView(source, 2131492991, "field 'themeIamge'");
+    target.themeIamge = finder.castView(view, 2131492991, "field 'themeIamge'");
+    view = finder.findRequiredView(source, 2131492994, "field 'themeNews'");
+    target.themeNews = finder.castView(view, 2131492994, "field 'themeNews'");
+    view = finder.findRequiredView(source, 2131492990, "field 'themeRefresh'");
+    target.themeRefresh = finder.castView(view, 2131492990, "field 'themeRefresh'");
+    view = finder.findRequiredView(source, 2131492992, "field 'themeDescription'");
+    target.themeDescription = finder.castView(view, 2131492992, "field 'themeDescription'");
+    view = finder.findRequiredView(source, 2131492993, "field 'editors'");
+    target.editors = finder.castView(view, 2131492993, "field 'editors'");
     return unbinder;
   }
 
