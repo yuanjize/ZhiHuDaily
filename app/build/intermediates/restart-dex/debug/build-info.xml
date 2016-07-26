@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="23"
-    density="560dpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xxhdpi"
     format="7"
-    timestamp="104656995584379"
+    timestamp="334963934842454"
     token="2604843425084387352" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="27991" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="1754" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1287" />
 
     <artifact
         location="F:\NewAndroidProjs\ZhiHuDaily\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="104656995584379" >
+    <build timestamp="334963934842454" >
         <artifact
             location="F:\NewAndroidProjs\ZhiHuDaily\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />

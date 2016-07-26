@@ -8,16 +8,16 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.google.gson.reflect.TypeToken;
 import com.wdullaer.materialdatetimepicker.date.DatePickerDialog;
 import com.yuan.app.R;
+import com.yuan.app.beans.Themes;
 import com.yuan.app.constants.URLs;
-import com.yuan.app.entities.Themes;
 import com.yuan.app.fragment.BaseFragment;
 import com.yuan.app.fragment.OtherNewsFragment;
-import com.yuan.app.net.ThemesService;
-import com.yuan.app.other.BaseRetrofitCallBack;
+import com.yuan.app.other.BaseSubscribe;
 import com.yuan.app.other.MyFragmentAdapter;
-import com.yuan.app.utils.RetrofitUtils;
+import com.yuan.app.utils.RxUtils;
 
 import java.util.Calendar;
 import java.util.List;
@@ -60,12 +60,21 @@ public class MainActivity extends BaseActivity implements
         navigationView.setNavigationItemSelectedListener(this);
         mainPager.setAdapter(new MyFragmentAdapter(getSupportFragmentManager()));
         //加载侧换菜单的数据
-        RetrofitUtils.request(ThemesService.class, "getAllThemes", new BaseRetrofitCallBack<Themes>(URLs.THEME_LIST, Themes.class) {
+        RxUtils.getAllThemes().subscribe(new BaseSubscribe<Themes>(URLs.THEME_LIST, new TypeToken<Themes>() {
+        }.getType()) {
             @Override
-            protected void handleMessage(Themes body) {
-                MainActivity.this.themes = body;
+            protected void handleMessage(Themes themes) {
+                MainActivity.this.themes = themes;
             }
         });
+
+//
+//        NetWorkUtil.request(ThemesService.class, "getAllThemes", new BaseRetrofitCallBack<Themes>(URLs.THEME_LIST, new TypeToken<Themes>()) {
+//            @Override
+//            protected void handleMessage(Themes body) {
+//                MainActivity.this.themes = body;
+//            }
+//        });
     }
 
 

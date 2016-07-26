@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.yuan.app.R;
 import com.yuan.app.application.MyApplication;
-import com.yuan.app.entities.ThemeNews;
+import com.yuan.app.beans.ThemeNews;
 import com.yuan.app.fragment.BaseFragment;
 
 import java.util.ArrayList;
@@ -21,7 +21,9 @@ public class EditorAdapter extends RecyclerView.Adapter<EditorViewHolder> {
     private List<ThemeNews.EditorsBean> editorsBeen = new ArrayList<>();
 
     public void addData(List<ThemeNews.EditorsBean> editorsBeen) {
+        clean();
         this.editorsBeen.addAll(editorsBeen);
+        notifyDataSetChanged();
     }
 
     public void clean() {

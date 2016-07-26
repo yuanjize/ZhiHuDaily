@@ -13,17 +13,17 @@ import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.google.gson.reflect.TypeToken;
 import com.yuan.app.R;
 import com.yuan.app.activity.NewsActivity;
+import com.yuan.app.beans.MainData;
 import com.yuan.app.constants.URLs;
-import com.yuan.app.entities.MainData;
-import com.yuan.app.entities.OldNews;
-import com.yuan.app.net.MainService;
 import com.yuan.app.other.BannerPageAdapter;
-import com.yuan.app.other.BaseRetrofitCallBack;
+import com.yuan.app.other.BaseSubscribe;
 import com.yuan.app.other.MainAdapter;
 import com.yuan.app.utils.CommonUtils;
-import com.yuan.app.utils.RetrofitUtils;
+import com.yuan.app.utils.LogUtils;
+import com.yuan.app.utils.RxUtils;
 import com.yuan.app.views.LoopViewPager;
 
 import java.util.ArrayList;
@@ -62,29 +62,30 @@ public class MainFragment extends BaseFragment implements SwipeRefreshLayout.OnR
     }
 
     private void getOldNews(String date) {
-        banner.stop();
-        RetrofitUtils.request(MainService.class, "getOldyNews", new BaseRetrofitCallBack<OldNews>(URLs.OLD_NEWS, OldNews.class) {
-                    @Override
-                    protected void handleMessage(OldNews body) {
-                        adapter.clear();
-                        adapter.addData(body.getStories());
-                        adapter.notifyDataSetChanged();
-                        banner.start();
-                    }
+        RxUtils.getOldyNews(date)
+                .subscribe(new BaseSubscribe<List<MainData.StoriesBean>>(URLs.OLD_NEWS, new TypeToken<List<MainData.StoriesBean>>() {
+                           }.getType()) {
+                               @Override
+                               protected void handleMessage(List<MainData.StoriesBean> storiesBeen) {
+                                   MainFragment.this.storys = storiesBeen;
+                                   adapter.addData(storiesBeen);
+                                   banner.start();
+                                   swipe.setRefreshing(false);
+                               }
 
-                    @Override
-                    public void onFailure(Throwable t) {
-                        super.onFailure(t);
-                        banner.start();
-                    }
-                }
-                , date);
+                               @Override
+                               public void onError(Throwable e) {
+                                   super.onError(e);
+                                   swipe.setRefreshing(false);
 
-    }
+                               }
 
-    @Override
-    public void onStart() {
-        super.onStart();
+                               @Override
+                               public void onStart() {
+                                   banner.stop();
+                               }
+                           }
+                );
     }
 
     @Override
@@ -101,6 +102,7 @@ public class MainFragment extends BaseFragment implements SwipeRefreshLayout.OnR
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(getActivity(), NewsActivity.class);
+                LogUtils.e("storys :" + storys);
                 intent.putParcelableArrayListExtra("datas", new ArrayList<Parcelable>(storys));
                 intent.putExtra("position", position);
                 getActivity().startActivity(intent);
@@ -120,28 +122,33 @@ public class MainFragment extends BaseFragment implements SwipeRefreshLayout.OnR
     }
 
     private void getLatestNews() {
-        banner.stop();
-        RetrofitUtils.request(MainService.class, "getTodayNews", new BaseRetrofitCallBack<MainData>(URLs.LASTEST_NEWS, MainData.class) {
-
+        RxUtils.getTodayNews().subscribe(new BaseSubscribe<MainData>(URLs.LASTEST_NEWS, new TypeToken<MainData>() {
+        }.getType()) {
             @Override
-            protected void handleMessage(MainData body) {
-                storys = body.getStories();
-                adapter.clear();
-                adapter.addData(body.getStories());
-                adapter.notifyDataSetChanged();
-                pagerAdapter.clear();
-                banner.setPageAdapter(pagerAdapter, body.getTop_stories());
-                banner.start();
-                swipe.setRefreshing(false);
+            public void onStart() {
+                super.onStart();
+                banner.stop();
             }
 
             @Override
-            public void onFailure(Throwable t) {
-                super.onFailure(t);
+            public void onError(Throwable e) {
+                super.onError(e);
+                swipe.setRefreshing(false);
+
+            }
+
+            @Override
+            protected void handleMessage(MainData mainData) {
+                MainFragment.this.storys = mainData.getStories();
+                adapter.addData(mainData.getStories());
+                LogUtils.e("init get data:" + mainData.getStories());
+                pagerAdapter.clear();
+                banner.setPageAdapter(pagerAdapter, mainData.getTop_stories());
                 banner.start();
                 swipe.setRefreshing(false);
             }
         });
+
     }
 
     @Override

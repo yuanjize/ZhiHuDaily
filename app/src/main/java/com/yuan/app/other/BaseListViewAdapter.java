@@ -2,7 +2,7 @@ package com.yuan.app.other;
 
 import android.widget.BaseAdapter;
 
-import com.yuan.app.entities.MainData;
+import com.yuan.app.beans.MainData;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +27,9 @@ public abstract class BaseListViewAdapter extends BaseAdapter {
     }
 
     public void addData(List<MainData.StoriesBean> datas){
+        this.clear();
         this.datas.addAll(datas);
+        notifyDataSetChanged();
     }
     public List<MainData.StoriesBean> getData(){
         return datas;

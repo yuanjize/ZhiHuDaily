@@ -13,7 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.yuan.app.R;
-import com.yuan.app.entities.MainData;
+import com.yuan.app.beans.MainData;
 import com.yuan.app.other.BannerPageAdapter;
 import com.yuan.app.utils.LogUtils;
 

@@ -1,10 +1,10 @@
 package com.yuan.app.net;
 
+import com.yuan.app.beans.LunchPicture;
 import com.yuan.app.constants.URLs;
-import com.yuan.app.entities.LunchPicture;
 
-import retrofit.Call;
-import retrofit.http.GET;
+import retrofit2.http.GET;
+import rx.Observable;
 
 /**
  * Created by yjz on 2016/5/29.
@@ -12,5 +12,5 @@ import retrofit.http.GET;
  */
 public interface PrepareService {
     @GET(URLs.LUNCH_PICTURE)
-    public Call<LunchPicture> getLunchPicture();
+    public Observable<LunchPicture> getLunchPicture();
 }

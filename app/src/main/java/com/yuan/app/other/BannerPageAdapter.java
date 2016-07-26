@@ -8,8 +8,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.yuan.app.application.MyApplication;
-import com.yuan.app.entities.MainData;
-import com.yuan.app.utils.LogUtils;
+import com.yuan.app.beans.MainData;
 
 import java.util.List;
 

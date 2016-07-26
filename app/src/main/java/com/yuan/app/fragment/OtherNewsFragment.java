@@ -13,21 +13,21 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.yuan.app.R;
 import com.yuan.app.activity.NewsActivity;
 import com.yuan.app.application.MyApplication;
+import com.yuan.app.beans.ThemeNews;
+import com.yuan.app.beans.Themes;
 import com.yuan.app.constants.URLs;
-import com.yuan.app.entities.ThemeNews;
-import com.yuan.app.entities.Themes;
-import com.yuan.app.net.ThemesService;
-import com.yuan.app.other.BaseRetrofitCallBack;
+import com.yuan.app.other.BaseSubscribe;
 import com.yuan.app.other.EditorAdapter;
 import com.yuan.app.other.MyItemDecoration;
 import com.yuan.app.other.ThemeNewsAdapter;
 import com.yuan.app.utils.DensityUtil;
-import com.yuan.app.utils.RetrofitUtils;
+import com.yuan.app.utils.RxUtils;
 import com.yuan.app.views.MyListView;
 
 import java.util.ArrayList;
@@ -102,25 +102,25 @@ public class OtherNewsFragment extends BaseFragment implements SwipeRefreshLayou
         this.bean = bean;
         Glide.with(this).load(bean.getThumbnail()).centerCrop().animate(R.anim.image_zoom_in).into(themeIamge);
         themeDescription.setText(bean.getDescription());
-        RetrofitUtils.request(ThemesService.class, "getThemeNews", new BaseRetrofitCallBack<ThemeNews>(URLs.THEME_CONTENT + themeId, ThemeNews.class) {
-            @Override
-            protected void handleMessage(ThemeNews body) {
-                OtherNewsFragment.this.news = body;
-                adapter.clear();
-                adapter.addData(body.getStories());
-                adapter.notifyDataSetChanged();
-                editorAdapter.clean();
-                editorAdapter.addData(body.getEditors());
-                editorAdapter.notifyDataSetChanged();
-                themeRefresh.setRefreshing(false);
-            }
+        RxUtils.getThemeNews(String.valueOf(themeId))
+                .subscribe(new BaseSubscribe<ThemeNews>(URLs.THEME_CONTENT + themeId, ThemeNews.class.getComponentType()) {
+                    @Override
+                    protected void handleMessage(ThemeNews themeNews) {
+                        OtherNewsFragment.this.news = themeNews;
+                        adapter.addData(themeNews.getStories());
+                        editorAdapter.addData(themeNews.getEditors());
+                        themeRefresh.setRefreshing(false);
+                        Toast.makeText(MyApplication.getContext(), "Rx is OK!", Toast.LENGTH_SHORT).show();
+                    }
 
-            @Override
-            public void onFailure(Throwable t) {
-                super.onFailure(t);
-                themeRefresh.setRefreshing(false);
-            }
-        }, String.valueOf(themeId));
+                    @Override
+                    public void onError(Throwable e) {
+                        super.onError(e);
+                        Toast.makeText(MyApplication.getContext(), "Rx is Sorry!", Toast.LENGTH_SHORT).show();
+                        themeRefresh.setRefreshing(false);
+                    }
+                });
+
 
     }
 

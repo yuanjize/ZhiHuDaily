@@ -1,4 +1,4 @@
-package com.yuan.app.entities;
+package com.yuan.app.beans;
 
 import android.os.Parcel;
 import android.os.Parcelable;

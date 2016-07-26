@@ -1,4 +1,4 @@
-package com.yuan.app.entities;
+package com.yuan.app.beans;
 
 /**
  * Created by yjz on 2016/5/29.

@@ -1,4 +1,4 @@
-package com.yuan.app.entities;
+package com.yuan.app.beans;
 
 import java.io.Serializable;
 import java.util.List;

@@ -10,9 +10,9 @@ import com.yuan.app.utils.CommonUtils;
 import com.yuan.app.utils.LogUtils;
 import com.yuan.app.utils.SPUtils;
 
-import retrofit.Callback;
-import retrofit.Response;
-import retrofit.Retrofit;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 /**
  * Created by yjz on 2016/5/29.
@@ -27,7 +27,7 @@ public abstract class BaseRetrofitCallBack<T> implements Callback<T> {
     }
 
     @Override
-    public void onResponse(Response<T> response, Retrofit retrofit) {
+    public void onResponse(Call<T> call, Response<T> response) {
 
         char initial = String.valueOf(response.code()).charAt(0);
         LogUtils.e(response.code() + "");
@@ -63,7 +63,7 @@ public abstract class BaseRetrofitCallBack<T> implements Callback<T> {
     protected abstract void handleMessage(T body);
 
     @Override
-    public void onFailure(Throwable t) {
+    public void onFailure(Call<T> call, Throwable t) {
         LogUtils.i(t.getMessage() + t.toString());
         Context context = MyApplication.getContext();
         useCache();

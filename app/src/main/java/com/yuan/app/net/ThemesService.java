@@ -1,20 +1,20 @@
 package com.yuan.app.net;
 
+import com.yuan.app.beans.ThemeNews;
+import com.yuan.app.beans.Themes;
 import com.yuan.app.constants.URLs;
-import com.yuan.app.entities.ThemeNews;
-import com.yuan.app.entities.Themes;
 
-import retrofit.Call;
-import retrofit.http.GET;
-import retrofit.http.Path;
+import retrofit2.http.GET;
+import retrofit2.http.Path;
+import rx.Observable;
 
 /**
  * Created by yjz on 2016/6/4.
  */
 public interface ThemesService {
     @GET(URLs.THEME_LIST)
-    public Call<Themes> getAllThemes();
+    public Observable<Themes> getAllThemes();
 
-    @GET(URLs.THEME_CONTENT+"{themeId}")
-    public Call<ThemeNews> getThemeNews(@Path("themeId") String themeId);
+    @GET(URLs.THEME_CONTENT + "{themeId}")
+    public Observable<ThemeNews> getThemeNews(@Path("themeId") String themeId);
 }

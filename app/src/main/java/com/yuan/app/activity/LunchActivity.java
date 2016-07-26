@@ -9,17 +9,15 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.yuan.app.R;
-import com.yuan.app.application.MyApplication;
+import com.yuan.app.beans.LunchPicture;
 import com.yuan.app.constants.URLs;
-import com.yuan.app.entities.LunchPicture;
-import com.yuan.app.net.PrepareService;
-import com.yuan.app.other.BaseRetrofitCallBack;
+import com.yuan.app.other.BaseSubscribe;
 import com.yuan.app.utils.ConnectUtils;
 import com.yuan.app.utils.LogUtils;
+import com.yuan.app.utils.RxUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import retrofit.Call;
 
 
 /**
@@ -64,14 +62,12 @@ public class LunchActivity extends AppCompatActivity {
 
     //展示启动图片
     private void showLunchPicture() {
-        PrepareService prepareService = MyApplication.getRetrofit().create(PrepareService.class);
-        Call<LunchPicture> call = prepareService.getLunchPicture();
-        call.enqueue(new BaseRetrofitCallBack<LunchPicture>(URLs.LUNCH_PICTURE, LunchPicture.class) {
+        RxUtils.getLunchPicture().subscribe(new BaseSubscribe<LunchPicture>(URLs.LUNCH_PICTURE, LunchPicture.class) {
             @Override
-            protected void handleMessage(LunchPicture body) {
-                if (body != null) {
-                    LogUtils.i(body.getImg());
-                    Glide.with(LunchActivity.this).load(body.getImg()).into(lunchImage);
+            protected void handleMessage(LunchPicture lunchPicture) {
+                if (lunchPicture != null) {
+                    LogUtils.i(lunchPicture.getImg());
+                    Glide.with(LunchActivity.this).load(lunchPicture.getImg()).into(lunchImage);
                     handler.sendEmptyMessageDelayed(0, 3000);
                 }
             }

@@ -9,7 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.yuan.app.R;
-import com.yuan.app.entities.MainData;
+import com.yuan.app.beans.MainData;
 import com.yuan.app.other.NewsContentPageAdapter;
 
 import java.util.ArrayList;
@@ -44,9 +44,7 @@ public class NewsActivity extends BaseActivity {
     }
 
     private void getDatas() {
-        adapter.clear();
         adapter.addData(news);
-        adapter.notifyDataSetChanged();
         newsContentPager.setCurrentItem(currentPosition);
     }
 

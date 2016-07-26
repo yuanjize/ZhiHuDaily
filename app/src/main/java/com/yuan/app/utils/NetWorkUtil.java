@@ -8,13 +8,13 @@ import com.yuan.app.other.BaseRetrofitCallBack;
 
 import java.lang.reflect.Method;
 
-import retrofit.Call;
-import retrofit.Retrofit;
+import retrofit2.Call;
+import retrofit2.Retrofit;
 
 /**
  * Created by yjz on 2016/6/3.
  */
-public class RetrofitUtils {
+public class NetWorkUtil {
     public static <S,T> void request(Class<T> serviceClazz, String methodName, BaseRetrofitCallBack<S> callback, Object... params){
         Retrofit retrofit = MyApplication.getRetrofit();
         T service=retrofit.create(serviceClazz);
@@ -22,7 +22,7 @@ public class RetrofitUtils {
             Method[] methods = serviceClazz.getMethods();
             for (Method method:methods) {
                 if(method.getName().equals(methodName)){
-                    Call<S>call= (Call<S>) method.invoke(service,params);
+                    Call<S> call= (Call<S>) method.invoke(service,params);
                     call.enqueue(callback);
                 }
             }

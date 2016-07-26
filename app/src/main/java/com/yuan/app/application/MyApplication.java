@@ -5,8 +5,9 @@ import android.content.Context;
 
 import com.yuan.app.constants.URLs;
 
-import retrofit.GsonConverterFactory;
-import retrofit.Retrofit;
+import retrofit2.Retrofit;
+import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
  * Created by yjz on 2016/5/27.
@@ -14,23 +15,27 @@ import retrofit.Retrofit;
 public class MyApplication extends Application {
     private static Context context;
     private static Retrofit retrofit;
-    public MyApplication(){
+
+    public MyApplication() {
 
     }
 
     @Override
     public void onCreate() {
         super.onCreate();
-        context=getApplicationContext();
-        retrofit=new Retrofit.Builder()
+        context = getApplicationContext();
+        retrofit = new Retrofit.Builder()
+                .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .baseUrl(URLs.BASE_URL)
                 .build();
     }
-    public static Context getContext(){
+
+    public static Context getContext() {
         return context;
     }
-    public static Retrofit getRetrofit(){
+
+    public static Retrofit getRetrofit() {
         return retrofit;
     }
 }
