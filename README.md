@@ -1,4 +1,4 @@
-###Android仿知乎日报
+###Android仿知乎日报 Retrofit+RxJava
 ####主要功能：
 
 1.日报启动页面和欢迎页面<br>
